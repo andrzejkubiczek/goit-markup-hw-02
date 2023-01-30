@@ -30,7 +30,7 @@ li {
   color: var(--white-color);
 }
 
-.nav-links > li a {
+.nav-links li a {
   color: var(--brand-color);
   font-weight: 500;
   font-size: 14px;
@@ -39,15 +39,15 @@ li {
   text-decoration: none;
 }
 
-.nav-links > li a:hover,
+.nav-links li a:hover,
 .logo-blue,
-.nav-links > li a:focus,
-.contact-links > li a:hover,
-.contact-links > li a:focus {
+.nav-links li a:focus,
+.contact-links li a:hover,
+.contact-links li a:focus {
   color: var(--link-color);
 }
 
-.contact-links > li a {
+.contact li a {
   color: var(--contact-color);
 }
 
@@ -144,4 +144,27 @@ footer p a:focus {
 
 .footer-tel {
   text-decoration: none;
+}
+
+.main-buttons button {
+  border-radius: 4px;
+  background-color: var(--team-color);
+  color: var(--brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.main-buttons button:active,
+.main-buttons button:hover {
+  border-radius: 4px;
+  background-color: var(--link-color);
+  color: var(--white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
