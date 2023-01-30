@@ -51,7 +51,7 @@ li {
   color: var(--contact-color);
 }
 
-.main-order h1 {
+.order h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
@@ -61,7 +61,7 @@ li {
   color: var(--white-color);
 }
 
-.main-order button {
+.order button {
   text-align: center;
   letter-spacing: 0.06em;
   font-weight: 700;
@@ -71,26 +71,26 @@ li {
   color: var(--white-color);
 }
 
-.main-examples {
+.examples {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
 
-.main-examples h3 {
+.examples h3 {
   font-weight: 700;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--brand-color);
 }
 
-.main-examples p {
+.examples p {
   font-weight: 400;
   line-height: 1.7;
   color: var(--contact-color);
 }
 
-.main-info h2,
-.main-team h2 {
+.info h2,
+.team h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -99,26 +99,28 @@ li {
   color: var(--brand-color);
 }
 
-.main-team {
+.team {
   background-color: var(--team-color);
 }
 
-.main-team > figcaption {
-  font-weight: 500;
+.team figcaption {
   font-size: 16px;
-  line-height: 1.2;
-  text-align: center;
+  line-height: 1.8;
   letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.team-name {
+  font-weight: 500;
   color: var(--brand-color);
 }
 
-.main-team .main-team-name {
-  font-weight: 400;
+.team-descr {
   color: var(--contact-color);
 }
 
 footer,
-.main-order {
+.order {
   background-color: var(--bg-color);
 }
 
@@ -146,7 +148,7 @@ footer p a:focus {
   text-decoration: none;
 }
 
-.main-buttons button {
+.portfolio-buttons button {
   border-radius: 4px;
   background-color: var(--team-color);
   color: var(--brand-color);
@@ -157,14 +159,24 @@ footer p a:focus {
   letter-spacing: 0.03em;
 }
 
-.main-buttons button:active,
-.main-buttons button:hover {
-  border-radius: 4px;
+.portfolio-buttons button:active,
+.portfolio-buttons button:hover {
   background-color: var(--link-color);
   color: var(--white-color);
-  font-weight: 500;
+}
+
+.portfolio-item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--brand-color);
+}
+
+.portfolio-item-spec {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
+  line-height: 1.8;
   letter-spacing: 0.03em;
+  color: var(--contact-color);
 }
