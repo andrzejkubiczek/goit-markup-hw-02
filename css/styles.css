@@ -136,16 +136,13 @@ footer p:first-child {
 }
 
 footer p a {
+  text-decoration: none;
   color: var(--footer-contact-color);
 }
 
 footer p a:hover,
 footer p a:focus {
   background-color: var(--link-color);
-}
-
-.footer-tel {
-  text-decoration: none;
 }
 
 .portfolio-buttons button {
