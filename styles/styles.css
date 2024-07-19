@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     background-color: var(--white-color);
+    letter-spacing: 0.02em;
 }
 
 a {
@@ -50,7 +51,6 @@ address {
     font-size: 16px;
     color: var(--dark-color);
     line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .header-menu-link:hover,
@@ -63,11 +63,10 @@ address {
 .header-contact-link {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: var(--text-color);
 }
 
-/* ------ HERO ------- */
+/* ------ MAIN ------- */
 
 .hero {
     background-color: var(--dark-color);
@@ -77,16 +76,68 @@ address {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 0.02em;
     text-align: center;
     color: var(--white-color);
 }
 
 .hero-button {
-    background-color: var(--primary-brand-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
+    background-color: var(--primary-brand-color);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--pressed-state-color);
+}
+
+.features-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark-color);
+}
+
+.features-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team {
+    background-color: var(--light-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: var(--dark-color);
+}
+
+.team-item {
+    background-color: var(--white-color);
+}
+
+.team-item-name,
+.portfolio-item-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--dark-color);
+}
+
+.team-item-text,
+.portfolio-item-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team-item-name,
+.team-item-text {
+    text-align: center;
 }
