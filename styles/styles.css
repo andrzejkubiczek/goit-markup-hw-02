@@ -36,14 +36,14 @@ address {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    color: var(--dark-color);
+    color: var(--primary-brand-color);
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-dark {
-    color: var(--primary-brand-color);
+    color: var(--dark-color);
 }
 
 .header-menu-link {
@@ -68,7 +68,8 @@ address {
 
 /* ------ MAIN ------- */
 
-.hero {
+.hero,
+.footer {
     background-color: var(--dark-color);
 }
 
@@ -140,4 +141,16 @@ address {
 .team-item-name,
 .team-item-text {
     text-align: center;
+}
+
+/* ------ FOOTER ------- */
+
+.logo-light {
+    color: var(--light-color);
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--light-color);
 }
