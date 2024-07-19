@@ -1,2 +1,1 @@
-# goit-markup-hw-o2
- 
+https://andrzejkubiczek.github.io/goit-markup-hw-02/
